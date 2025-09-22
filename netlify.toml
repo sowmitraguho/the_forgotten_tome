@@ -2,12 +2,12 @@
 
 [build]
   command = "npm run build"
-  publish = "build"   # or "build" depending on your framework (Vite = dist, CRA/Next.js = build)
+  publish = ".next"   # or "build" depending on your framework (Vite = dist, CRA/Next.js = build)
 
 [dev]
   command = "npm run dev"
   port = 8888
-  publish = "build"
+  publish = ".next"
 
 # Redirects (for SPA routing, e.g., React, Vue, Angular)
 [[redirects]]
